@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="ASCII"?>
+<fragment:ModelFragments xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:commands="http://www.eclipse.org/ui/2010/UIModel/application/commands" xmlns:fragment="http://www.eclipse.org/ui/2010/UIModel/fragment" xmlns:menu="http://www.eclipse.org/ui/2010/UIModel/application/ui/menu" xmi:id="_nTlagN8NEeeD27-0FopU6g">
+  <fragments xsi:type="fragment:StringModelFragment" xmi:id="_ohNrQN8NEeeD27-0FopU6g" featurename="commands" parentElementId="com.frank.e4.dialog.application">
+    <elements xsi:type="commands:Command" xmi:id="_6dqpwN8NEeeD27-0FopU6g" elementId="com.frank.e4.contribution.command.openmap2" commandName="Open Map 2"/>
+  </fragments>
+  <fragments xsi:type="fragment:StringModelFragment" xmi:id="_CeH5MN8OEeeD27-0FopU6g" featurename="handlers" parentElementId="com.frank.e4.dialog.application">
+    <elements xsi:type="commands:Handler" xmi:id="_F7lekN8OEeeD27-0FopU6g" elementId="com.frank.e4.contribution.handler.0" contributionURI="bundleclass://com.frank.e4.contribution/com.frank.e4.contribution.handlers.OpenMapHandler" command="_6dqpwN8NEeeD27-0FopU6g"/>
+  </fragments>
+  <fragments xsi:type="fragment:StringModelFragment" xmi:id="_LMhzwN8OEeeD27-0FopU6g" featurename="children" parentElementId="org.eclipse.ui.main.menu">
+    <elements xsi:type="menu:Menu" xmi:id="_GaCfsN8PEeeD27-0FopU6g" elementId="com.frank.e4.contribution.menu.map2" label="Map2">
+      <children xsi:type="menu:HandledMenuItem" xmi:id="_LwGlcN8PEeeD27-0FopU6g" elementId="com.frank.e4.contribution.handledmenuitem.openmap2" label="Open Map 2" command="_6dqpwN8NEeeD27-0FopU6g"/>
+    </elements>
+  </fragments>
+</fragment:ModelFragments>
